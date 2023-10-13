@@ -11,6 +11,10 @@ namespace Arduino_to_WinForm
 
         SerialPort SerialIO = new SerialPort(); // requires the library System.IO.Ports; installed.
 
+        // Serial.BaudRate = 9600;
+        // Serial.DataReceived += new SerialDataReceivedEventHandler(DataReceivedHandler);  Make sure you have this on the part where it opens the serial.
+        // Serial.Open();  
+
         // This function runs everytime a new data is sent to the Serial Port. Ex: from the Serial.println();
         private void RecieveSerialData(object sender, SerialDataReceivedEventArgs e)
         {
