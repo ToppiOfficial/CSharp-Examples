@@ -21,7 +21,6 @@ WiFiUDP ntpUDP;
 // Use time.google instead, it is faster than the latter.
 // If time google doesn't work use the latter: ntpServer = "pool.ntp.org";
 const char* ntpServer = "time.google.com";
-const char* DataSheetURL = "your_data_sheet_url";
 
 bool signupOK = false;
 
