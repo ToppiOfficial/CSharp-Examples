@@ -1,3 +1,8 @@
+/*
+  REFERENCE:
+  https://randomnerdtutorials.com/esp32-firebase-realtime-database/
+*/
+
 #include <WiFi.h>
 #include <NTPClient.h>
 #include <Firebase_ESP_Client.h>
